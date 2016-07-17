@@ -368,7 +368,7 @@ googleAnalytics = ""
 
 		[[params.footer.social]]
 			icon = "fa-facebook"
-			link = "https://www.facebook.com/developerict/"
+			link = "https://www.facebook.com/events/263285980716220/"
 
 		[[params.footer.quicklinks]]
 			text = "devICT"
