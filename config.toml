@@ -35,13 +35,13 @@ googleAnalytics = ""
 	email = "ictgamejam@makeict.org"
 
     # Link custom assets relative to /statuc
-    custom_css = []
+    custom_css = ["custom.css"]
     custom_js  = []
 
 
 	# Navigation
 	[params.navigation]
-		brand = "July 15-17 2016"
+		brand = "February 3-5 2017"
 		event = "Event"
 		schedule = "Schedule"
 		help = "Help!"
@@ -63,7 +63,7 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-        url = "http://makeict.wildapricot.org/event-2267694"
+        url = "https://www.eventbrite.com/e/wichita-esports-convention-tickets-28640291884#tickets"
         name = "RSVP!"
         weight = 10
 
@@ -81,14 +81,14 @@ googleAnalytics = ""
 	[params.event]
     enable = true
 		title = "It's a PARTY"
-		subtitle = "Ok, **technically** it's a competition with cash prizes.  It's not a workshop or a class about making games.  But if you want to spend a weekend learning gamedev and getting fed, you'll be in good company.<br><br><a href=\"http://makeict.wildapricot.org/event-2267694\" class=\"page-scroll btn btn-xl\">You should RSVP</a>"
+		subtitle = "Ok, **technically** it's a competition with cash prizes.  It's not a workshop or a class about making games.  But if you want to spend a weekend learning gamedev and getting fed, you'll be in good company.<br><br><a href=\"https://www.eventbrite.com/e/wichita-esports-convention-tickets-28640291884#tickets\" class=\"page-scroll btn btn-xl\">You should RSVP</a>"
 
         [[params.event.row]]
 
-						[[params.event.row.list]]
-								icon = "fa-gamepad"
-								title = "Do I need to have made a game before?"
-								description = "[Last year](http://devict.org/gamejam), over 60% of participants had little or no gamedev experience, but they had a blast.  We'll have lots of people willing to answer questions and help you learn at your own pace!"
+			[[params.event.row.list]]
+				icon = "fa-gamepad"
+				title = "Do I need to have made a game before?"
+				description = "Plenty of previous participants had little or no gamedev experience, but they had a blast.  We'll have lots of people willing to answer questions and help you learn at your own pace!"
 
             [[params.event.row.list]]
                 icon = "fa-code"
@@ -98,12 +98,12 @@ googleAnalytics = ""
             [[params.event.row.list]]
                 icon = "fa-laptop"
                 title = "Do I need a computer?"
-                description = "While it's best to bring your own, there will even be computers available, just bring something for saving your work!  For those who bring their own, your desk will have 2 external monitors."
+                description = "Computers cannot be provided for this event, however it's possible external monitors will be available at your desk space!"
 
-						[[params.event.row.list]]
+			[[params.event.row.list]]
                 icon = "fa-heart"
                 title = "I love it! I must know more!"
-                description = "If you insist!  The event is generously hosted at [NCAT](http://ncatkansas.org/).  We will have snacks, drinks and T-shirt waiting for you!  All meals will be provided on Saturday, breakfast and lunch provided on Sunday.  All that's left is to [RSVP](http://makeict.wildapricot.org/event-2267694) and follow [@ICTGameJam](https://twitter.com/ICTGameJam)!"
+                description = "If you insist!  The event is generously hosted at [WSU Experiential Engineering building](http://www.wichita.edu/thisis/stories/story.asp?si=3511) during the [Wichita eSports Expo](https://www.facebook.com/events/243882846026141/).  We will have snacks, drinks and T-shirt waiting for you!  Lunch and Dinner will be provided on Saturday, and lunch provided on Sunday.  All that's left is to [RSVP](https://www.eventbrite.com/e/wichita-esports-convention-tickets-28640291884#tickets) (choose a gamejam-specific ticket)  and follow [@ICTGameJam](https://twitter.com/ICTGameJam)!"
 
 
 	# Schedule timeline
@@ -120,32 +120,32 @@ googleAnalytics = ""
 			img= "1.jpg"
 			date = "Friday"
 			title = "Kickoff!"
-			description = "Doors open at 5pm, kickoff slides and intro start at 6pm.  Participants will receive an email to vote on the game jam's theme.  Those needing teams will have an opportunity to pitch ideas and form or join teams as necessary.  You can even work solo if you want.  Then it's time to start making games!"
+			description = "Doors open at 6pm, kickoff slides and intro start at 7pm.  Participants will receive an email to vote on the game jam's theme.  Those needing teams will have an opportunity to pitch ideas and form or join teams as necessary.  You can even work solo if you want.  Then it's time to start making games!  Doors close at 11pm.  You can continue working, but will need to leave the campus!"
 
 		[[params.schedule.events]]
 			img = "2.jpg"
 			date = "Saturday"
 			title = "Build Day!"
-			description = "Show up bright and early.  Enjoy refreshments, 3 meals and ... oh yeah... build a game!  Hit a wall?  Ask for help!  Lean on the volunteers and fellow game devs for feedback and encouragement!"
+			description = "Show up at 10am.  Enjoy refreshments, 2 meals and ... oh yeah... build a game!  Hit a wall?  Ask for help!  Lean on the volunteers and fellow game devs for feedback and encouragement!  Doors close at 11pm.  You can continue working, but will need to leave the campus!"
 
 		[[params.schedule.events]]
 			img = "3.jpg"
 			date = "Sunday"
 			title = "Polish, SHIP IT!!  Community Play.  Winners announced!"
-			description = "Put the finishing touches on your game.  Work stops at 1pm.  Doors open to the public 3 - 5pm to play your games and vote for Community Choice while the judges deliberate.  Winners announced at 5:30pm.  BONUS: Try the [Fireshark Truck](https://www.fireshark.com/fireshark-truck.html) for free 3 - 5pm!!"
+			description = "Arrive at 10am to put the finishing touches on your game.  Work stops, lunch begins at 12pm.  Judges play your games 1 - 2pm.  Doors open to the public 2 - 4pm to play your games and vote for Community Choice while the judges deliberate.  Winners announced at 5:30pm."
 
 	# help section
 	[params.help]
     enable = true
 		title = "Help!"
-		subtitle = "The best way to help is to [RSVP](http://makeict.wildapricot.org/event-2267694) and participate!  Otherwise we welcome volunteered time or talent in any amount before, during or after the event.<br><br>Finally, if you absolutely insist, here are some sponsorship packages to consider!  For all these, please contact [ictgamejam@makeict.org](mailto:ictgamejam@makeict.org).<br><br>This and all devICT gamedev events are operated under MakeICT, a 501c3 organization.  All donations are used to run this and future gamedev events."
+		subtitle = "The best way to help is to [RSVP](https://www.eventbrite.com/e/wichita-esports-convention-tickets-28640291884#tickets) and participate!  Otherwise we welcome volunteered time or talent in any amount before, during or after the event.<br><br>Finally, if you absolutely insist, here are some sponsorship packages to consider!  For all these, please contact [ictgamejam@makeict.org](mailto:ictgamejam@makeict.org).<br><br>This and all devICT gamedev events are operated under MakeICT, a 501c3 organization.  All donations are used to run this and future gamedev events."
 
         [[params.help.row]]
 
             [[params.help.row.list]]
                 icon = "fa-wrench"
                 title = "Italian Plumber 1-1: $250"
-                description = "<i class=\"fa fa-caret-right\"></i> Thanks via ICT Game Jam (Twitter), MakeICT and devICT (Twitter, Facebook), twice before event.<br><i class=\"fa fa-caret-right\"></i> Thanks at Friday kickoff presentation, and awards announcements on Sunday.<br><i class=\"fa fa-caret-right\"></i> Logo or name on back of event T-shirt, and on 2016 event page.  Note: Inclusion on T-shirt requires sponsorship prior to July 1st 2016."
+                description = "<i class=\"fa fa-caret-right\"></i> Thanks via ICT Game Jam (Twitter), MakeICT and devICT (Twitter, Facebook), twice before event.<br><i class=\"fa fa-caret-right\"></i> Thanks at Friday kickoff presentation, and awards announcements on Sunday.<br><i class=\"fa fa-caret-right\"></i> Logo or name on 2017 event page."
 
             [[params.help.row.list]]
                 icon = "fa-arrow-up"
@@ -155,12 +155,12 @@ googleAnalytics = ""
             [[params.help.row.list]]
                 icon = "fa-star"
                 title = "Invincibility: $1500"
-                description = "<i class=\"fa fa-caret-right\"></i> Everything in Protein Mushroom package.<br><i class=\"fa fa-caret-right\"></i> Table space at event for provided promotional material.<br><i class=\"fa fa-caret-right\"></i> Logo or name displayed in all event videos."
+                description = "<i class=\"fa fa-caret-right\"></i> Everything in Protein Mushroom package.<br><i class=\"fa fa-caret-right\"></i> Table space at event for provided promotional material.<br><i class=\"fa fa-caret-right\"></i> Monthly thanks via social media through February 2018."
 
-						[[params.help.row.list]]
+			[[params.help.row.list]]
                 icon = "fa-car"
                 title = "Blue Shell: $3000"
-                description = "<i class=\"fa fa-caret-right\"></i> Everything in Invincibility package.<br><i class=\"fa fa-caret-right\"></i> Monthly thanks via social media through May 2017.<br><i class=\"fa fa-caret-right\"></i> Table, banner space, and sponsorship thanks at 2 devICT Gamedev Build or Demo Days."
+                description = "<i class=\"fa fa-caret-right\"></i> Everything in Invincibility package.<br><i class=\"fa fa-caret-right\"></i> Table, banner space, and sponsorship thanks at 2 devICT Gamedev Build or Demo Days.<br><i class=\"fa fa-caret-right\"></i> Logo or name displayed in all event videos."
 
 
 	# Services section
@@ -244,41 +244,30 @@ googleAnalytics = ""
     enable = true
 		title = "Our fearless judges"
 		subtitle = "From near AND distant lands!"
-		description = "Matt joins us from California, where he is [half of Lost Decade Games](http://www.lostdecadegames.com/about/team/), the studio behind [A Wizard's Lizard](http://store.steampowered.com/app/280040/) and [A Wizard's Lizard: Soul Thief](http://store.steampowered.com/app/373470/). They also record [Lostcast](http://www.lostdecadegames.com/lostcast/), a beloved and long-running weekly podcast about game development.<br><br>Brian joined Nicholas and [Quickdraw Studios](http://quickdrawstud.io/) after meeting at the inaugural 2015 ICT Game Jam. Soon thereafter they [built Gnome Wars! for Hopping Gnome Brewery](http://gamesided.com/2015/10/26/development-team-formed-game-jam-enjoys-local-success/). This summer they [won HackathonICT with Pac Wichita](https://openwichita.com/hackathon-ict-2016/)."
 
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
 		[[params.team.members]]
-			img = "richtaur.png"
-			name = "Matt Hackett"
-			position = "<i class=\"fa fa-caret-right\"></i> Obsesses over video games at the beach with his games user researcher wife Andrea and fox-bear Koopa.<br><i class=\"fa fa-caret-right\"></i> Independent since 2012, wearing most hats in the game dev stack, like programming and art and stuff!<br><i class=\"fa fa-caret-right\"></i> When not cranky about how game designs are going, he can also be found iterating on his chili recipe."
+			img = "2017-02-brent.jpg"
+			name = "Brent Sodman"
+			position = "<i class=\"fa fa-caret-right\"></i> Founder of [Dodge Roll Games](https://twitter.com/dodgerollgames).<br><i class=\"fa fa-caret-right\"></i> Programmer of [Enter the Gungeon](http://dodgeroll.com/gungeon/), released April 2016.<br><i class=\"fa fa-caret-right\"></i> Former technical artist at Electronic Arts.<br><i class=\"fa fa-caret-right\"></i> The best type of jam is game jam."
 			social = [
-				["fa-twitter", "https://twitter.com/richtaur"],
-				["fa-globe", "http://www.lostdecadegames.com/"],
-				["fa-microphone", "http://www.lostdecadegames.com/lostcast/"]
+				["fa-twitter", "https://twitter.com/DodgeRollBrent"],
+                ["fa-envelope", "mailto:brent@dodgeroll.com"]
 			]
 
+		# All team member's pictures are stored under 'static/img/team'.
+		# Replace them with your own too.
 		[[params.team.members]]
-			img = "nicholas-gallo-book.jpg"
-			name = "Nicholas Gallo"
-			position = "<i class=\"fa fa-caret-right\"></i> CEO of Quickdraw Studios.<br><i class=\"fa fa-caret-right\"></i> Chief Consumer of Kit-Kats.<br><i class=\"fa fa-caret-right\"></i> Avid Playstation Fan."
+			img = "2017-02-sophii.jpg"
+			name = "Sophii!"
+			position = "<i class=\"fa fa-caret-right\"></i> Fancies herself a Smite Overlord, wins 'some' matches.<br><i class=\"fa fa-caret-right\"></i> Recreates and wears the skin of her enemies, calls it Cosplay.<br><i class=\"fa fa-caret-right\"></i> Will work for Full Throttle Energy Drink."
 			social = [
-				["fa-twitter", "https://twitter.com/nicky_g1"],
-				["fa-globe", "http://quickdrawstud.io/"],
-				["fa-facebook", "https://www.facebook.com/nicolas.gallo.7798"],
-				["fa-linkedin", "https://www.linkedin.com/in/nicolas-gallo-38283976"]
+				["fa-twitter", "https://twitter.com/UltraGirlsCos"],
+                ["fa-facebook", "https://www.facebook.com/OhMySophii"],
+                ["fa-instagram", "https://www.instagram.com/ohmysophii/"]
 			]
 
-		[[params.team.members]]
-			img = "brian-foster.jpg"
-			name = "Brian Foster"
-			position = "<i class=\"fa fa-caret-right\"></i> CIO in charge of development and polish of video games in addition to research of new technologies at Quickdraw Studio.<br><i class=\"fa fa-caret-right\"></i> Teaches video game design at Butler Community College.<br><i class=\"fa fa-caret-right\"></i> Currently playing a lot of Nuclear Throne.<br><i class=\"fa fa-caret-right\"></i> foreach(day in week){EatPizza();}"
-			social = [
-				["fa-twitter", "https://twitter.com/brianfoster"],
-				["fa-home", "http://brianisbrilliant.com/"],
-				["fa-globe", "http://quickdrawstud.io/"],
-				["fa-linkedin", "https://www.linkedin.com/in/brianisbrilliant"]
-			]
 
 	# Client section
     [params.clients_list]
@@ -297,40 +286,36 @@ googleAnalytics = ""
     		link = "http://makeict.org"
 
     	[[params.clients]]
-    		logo = "ncat-logo-210.png"
-    		link = "http://ncatkansas.org"
-
-    	[[params.clients]]
     		logo = "Storehouse-Logo-260.png"
     		link = "https://sthse.co/"
 
-			[[params.clients]]
-				logo = "callcap_logo_260.png"
-				link = "https://www.callcap.com/"
+		[[params.clients]]
+			logo = "callcap_logo_260.png"
+			link = "https://www.callcap.com/"
 
-			[[params.clients]]
-				logo = "Roll20-260.png"
-				link = "https://roll20.net/"
+		[[params.clients]]
+			logo = "Roll20-260.png"
+			link = "https://roll20.net/"
 
-			[[params.clients]]
-				logo = "carlos-260.png"
-				link = "https://www.carlosokellys.com/"
+		[[params.clients]]
+			logo = "carlos-260.png"
+			link = "https://www.carlosokellys.com/"
 
-			[[params.clients]]
-				logo = "bnm-logo.png"
-				link = "http://www.barrettmorgandesignllc.com/"
+		[[params.clients]]
+			logo = "bnm-logo.png"
+			link = "http://www.barrettmorgandesignllc.com/"
 
-			[[params.clients]]
-				logo = "fireshark-truck-emblem-260.png"
-				link = "https://www.fireshark.com/"
+		[[params.clients]]
+			logo = "fireshark-truck-emblem-260.png"
+			link = "https://www.fireshark.com/"
 
-			[[params.clients]]
-				logo = "labor-party-260.png"
-				link = "http://labor-party.com/"
+		[[params.clients]]
+			logo = "labor-party-260.png"
+			link = "http://labor-party.com/"
 
-			[[params.clients]]
-				logo = "bcw_icon-260.png"
-				link = "http://bullercodeworks.com/"
+		[[params.clients]]
+			logo = "bcw_icon-260.png"
+			link = "http://bullercodeworks.com/"
 
 	# Contact section
 	[params.contact]
