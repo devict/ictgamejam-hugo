@@ -1,0 +1,18 @@
+{{ "<!-- jQuery -->" | safeHTML }}
+<script src="{{ "js/jquery-v3.3.1/jquery.min.js"| absURL }}"></script>
+
+{{ "<!-- Bootstrap Core -->" | safeHTML }}
+<script src="{{ "js/bootstrap-v3.3.7/bootstrap.min.js"| absURL }}"></script>
+
+{{ "<!-- Custom Theme -->" | safeHTML }}
+<script src="{{ "js/ictgj-2017-feb.js"| absURL }}"></script>
+
+{{ template "_internal/google_analytics_async.html" . }}
+
+{{ if .Site.Params.analytics.piwik }}
+  {{ partial "_analytics/piwik.html" . }}
+{{ end }}
+
+{{ range .Site.Params.custom_js }}
+  <script src="{{ . | absURL }}"></script>
+{{ end }}

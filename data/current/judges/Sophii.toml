@@ -1,0 +1,14 @@
+img = "2017-02-sophii.jpg"
+name = "Sophii!"
+
+bio = [
+  "Fancies herself a Smite Overlord, wins 'some' matches.",
+  "Recreates and wears the skin of her enemies, calls it Cosplay.",
+  "Will work for Full Throttle Energy Drink."
+]
+
+social = [
+  ["fa-twitter", "https://twitter.com/UltraGirlsCos"],
+  ["fa-facebook", "https://www.facebook.com/OhMySophii"],
+  ["fa-instagram", "https://www.instagram.com/ohmysophii/"]
+]

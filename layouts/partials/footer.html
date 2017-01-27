@@ -1,0 +1,29 @@
+{{ "<!-- Footer section -->" | safeHTML }}
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">Published under the Apache License 2.0.</span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+
+          {{ range .Site.Params.social }}
+            <li><a href="{{ .link }}"><i class="fa {{ .icon }}"></i></a></li>
+          {{ end }}
+
+          {{ with .Site.Data.current.parms.facebookevent }}
+            <li><a href="{{ . }}"><i class="fa fa-facebook"></i></a></li>
+          {{ end }}
+
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          <li><a href="http://devict.org">devICT</a></li>
+          <li><a href="mailto:ictgamejam@makeict.org">Email ICT Game Jam</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,39 @@
+{{ "<!-- Judges Section -->" | safeHTML }}
+<section id="judges" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Our fearless judges</h2>
+        <h3 class="section-subheading text-mutedwith ">From near AND distant lands!</h3>
+      </div>
+    </div>
+    <div class="row flexbox">
+      {{ range $.Site.Data.current.judges }}
+        <div class="col-sm-4 col">
+          <div class="team-member">
+            {{ $url := printf "img/team/%s" .img }}
+            <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}">
+            <h3>{{ .name | markdownify }}</h3>
+
+            <ul class="text-left">
+            {{ range .bio }}
+              <li>{{ . | markdownify }}</li>
+            {{ end }}
+            </ul>
+
+            <ul class="list-inline social-buttons">
+              {{ range .social }}
+                <li><a href="{{ index . 1 }}"><i class="fa {{ index . 0 }}"></i></a></li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <p class="large text-muted">{{ with .Site.Params.team.description }}{{ . | markdownify }}{{ end }}</p>
+      </div>
+    </div>
+  </div>
+</section>

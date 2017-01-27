@@ -3,25 +3,52 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ with .Site.Params.event.title }}{{ . }}{{ end }}</h2>
-                <h3 class="section-subheading text-muted">{{ with .Site.Params.event.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+                <h2 class="section-heading">It's a PARTY</h2>
+                <h3 class="section-subheading text-muted">
+                  Ok, **technically** it's a competition with cash prizes. It's not a workshop or a class about making games. But if you want to spend a weekend learning gamedev and getting fed, you'll be in good company.
+                  <br><br>
+                  <a href="https://www.eventbrite.com/e/wichita-esports-convention-tickets-28640291884#tickets" class="page-scroll btn btn-xl">You should RSVP</a>
+                </h3>
             </div>
         </div>
 
-        {{ range .Site.Params.event.row }}
+
         <div class="row text-center">
-            {{ range .list }}
-            <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading">{{ .title | markdownify }}</h4>
-                <p class="text-muted">{{ .description | markdownify }}</p>
-            </div>
-            {{ end }}
-        </div>
-        {{ end }}
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-gamepad fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Do I need to have made a game before?</h4>
+            <p class="text-muted">Plenty of previous participants had little or no gamedev experience, but they had a blast.  We'll have lots of people willing to answer questions and help you learn at your own pace!</p>
+          </div>
 
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Do I need to be a programmer?</h4>
+            <p class="text-muted">No!  Games also need artists, writers, and designers.  There is no rule for whether your game must be 2D, 3D, complex, or even have graphics.</p>
+          </div>
+
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Do I need a computer?</h4>
+            <p class="text-muted">Computers cannot be provided for this event, however it's possible external monitors will be available at your desk space!</p>
+          </div>
+
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-heart fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">I love it! I must know more!</h4>
+            <p class="text-muted">If you insist!  The event is generously hosted at <a href="http://www.wichita.edu/thisis/stories/story.asp?si=3511">WSU Experiential Engineering building during the <a href="https://www.facebook.com/events/243882846026141/">Wichita eSports Expo</a>.  We will have snacks, drinks and T-shirt waiting for you!  Lunch and Dinner will be provided on Saturday, and lunch provided on Sunday.  All that's left is to <a href="https://www.eventbrite.com/e/wichita-esports-convention-tickets-28640291884#tickets">RSVP</a> (choose a gamejam-specific ticket)  and follow <a href="https://twitter.com/ICTGameJam">@ICTGameJam</a>!</p>
+          </div>
+        </div>
     </div>
 </section>
