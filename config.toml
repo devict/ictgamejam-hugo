@@ -11,6 +11,7 @@ name = "ICT Game Jam"
 description = "Build a game at Wichita's biggest game development party!!"
 author = "Jim Rice"
 email = "ictgamejam@makeict.org"
+copyright = "Published under the Apache License 2.0."
 
 custom_css = []
 custom_js  = []

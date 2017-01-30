@@ -3,8 +3,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Our fearless judges</h2>
-        <h3 class="section-subheading text-mutedwith ">From near AND distant lands!</h3>
+        <h2 class="section-heading">{{ $.Site.Data.current.general.sections.judges.title | markdownify }}</h2>
+        <h3 class="section-subheading text-mutedwith ">{{ $.Site.Data.current.general.sections.judges.subtitle | markdownify }}</h3>
       </div>
     </div>
     <div class="row flexbox">
@@ -15,7 +15,7 @@
             <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}">
             <h3>{{ .name | markdownify }}</h3>
 
-            <ul class="text-left">
+            <ul class="text-left text-muted">
             {{ range .bio }}
               <li>{{ . | markdownify }}</li>
             {{ end }}
@@ -29,11 +29,6 @@
           </div>
         </div>
       {{ end }}
-    </div>
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <p class="large text-muted">{{ with .Site.Params.team.description }}{{ . | markdownify }}{{ end }}</p>
-      </div>
     </div>
   </div>
 </section>

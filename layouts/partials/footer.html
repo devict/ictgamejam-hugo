@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <span class="copyright">Published under the Apache License 2.0.</span>
+        <span class="copyright">{{ $.Site.Params.copyright | markdownify }}</span>
       </div>
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
@@ -20,8 +20,10 @@
       </div>
       <div class="col-md-4">
         <ul class="list-inline quicklinks">
-          <li><a href="http://devict.org">devICT</a></li>
-          <li><a href="mailto:ictgamejam@makeict.org">Email ICT Game Jam</a></li>
+          {{ range $.Site.Data.current.general.sections.footer.links }}
+          <li>{{ . | markdownify }}</li>
+          {{ end }}
+          <li><a href="mailto:{{ $.Site.Params.email }}">{{ $.Site.Data.current.general.sections.footer.emailtext | markdownify }}</a></li>
         </ul>
       </div>
     </div>
