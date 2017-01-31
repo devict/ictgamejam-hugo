@@ -25,7 +25,7 @@ facebookevent = "https://www.facebook.com/events/263285980716220/"
   [[sections.event.list]]
     icon = "fa-heart"
     title = "I love it! I must know more!"
-    description = "If you insist!  The event is generously hosted at [WSU Experiential Engineering building](http://www.wichita.edu/thisis/stories/story.asp?si=3527).  We will have snacks, drinks and T-shirt waiting for you!  All meals will be provided on Saturday, breakfast and lunch provided on Sunday.  All that's left is to [RSVP](https://www.eventbrite.com/e/wichita-esports-convention-tickets-28640291884#tickets), follow [@ICTGameJam](https://twitter.com/ICTGameJam), and join us in [Slack](https://devict-slackin.herokuapp.com)!"
+    description = "If you insist!  The event is generously hosted at [WSU Experiential Engineering building](http://www.wichita.edu/thisis/stories/story.asp?si=3527).  We will have snacks, drinks and T-shirt waiting for you!  Dinner will be provided Friday night, lunch and dinner on Saturday, as well as lunch on Sunday.  All that's left is to [RSVP](https://www.eventbrite.com/e/wichita-esports-convention-tickets-28640291884#tickets), follow [@ICTGameJam](https://twitter.com/ICTGameJam), and join us in [Slack](https://devict-slackin.herokuapp.com)!"
 
 [sections.schedule]
   title = "Schedule"
