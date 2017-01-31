@@ -19,3 +19,7 @@ custom_js  = []
 [[params.social]]
   icon = "fa-twitter"
   link = "https://twitter.com/ICTGameJam"
+
+[[params.social]]
+  icon = "fa-facebook"
+  link = "https://www.facebook.com/events/1373594832659492/"
