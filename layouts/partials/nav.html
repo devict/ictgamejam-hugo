@@ -1,4 +1,5 @@
 {{ "<!-- Navigation -->" | safeHTML }}
+{{ $mainmenu := .Site.Menus.main }}
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
@@ -10,7 +11,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand page-scroll" href="#page-top">
-              <span><img src="img/2016-ictgamejam-dot-com.png" alt="">{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</span>
+              <span><img src="img/2016-ictgamejam-dot-com.png" alt="">{{ .Site.Data.current.general.datestring }}</span>
             </a>
         </div>
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
@@ -20,65 +21,22 @@
                     <a href="#page-top"></a>
                 </li>
 
-                {{ range .Site.Menus.prepend }}
                 <li>
-                    <a href="{{ .URL }}">{{ .Name | markdownify }}</a>
+                  <a href="#event">Event</a>
                 </li>
-                {{ end }}
+                <li>
+                  <a href="#schedule">Schedule</a>
+                </li>
+                <li>
+                  <a href="#help">Help!</a>
+                </li>
+                <li>
+                  <a href="#judges">Judges</a>
+                </li>
+                <li>
+                  <a href="{{ .Site.Data.current.general.rsvplink }}">RSVP!</a>
+                </li>
 
-                {{ if .Site.Params.event.enable }}
-                <li>
-                    <a class="page-scroll" href="#event">{{ with .Site.Params.navigation.event }}{{ . | markdownify }}{{ end }}</a>
-                </li>
-                {{ end }}
-
-                {{ if .Site.Params.schedule.enable }}
-                <li>
-                    <a class="page-scroll" href="#schedule">{{ with .Site.Params.navigation.schedule }}{{ . | markdownify }}{{ end }}</a>
-                </li>
-                {{ end }}
-
-                {{ if .Site.Params.help.enable }}
-                <li>
-                    <a class="page-scroll" href="#help">{{ with .Site.Params.navigation.help }}{{ . | markdownify }}{{ end }}</a>
-                </li>
-                {{ end }}
-
-                {{ if .Site.Params.services.enable }}
-                <li>
-                    <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</a>
-                </li>
-                {{ end }}
-
-                {{ if .Site.Params.portfolio.enable }}
-                <li>
-                    <a class="page-scroll" href="#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . | markdownify }}{{ end }}</a>
-                </li>
-                {{ end }}
-
-                {{ if .Site.Params.about.enable }}
-                <li>
-                    <a class="page-scroll" href="#about">{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</a>
-                </li>
-                {{ end }}
-
-                {{ if .Site.Params.team.enable }}
-                <li>
-                    <a class="page-scroll" href="#team">{{ with .Site.Params.navigation.team }}{{ . | markdownify }}{{ end }}</a>
-                </li>
-                {{ end }}
-
-                {{ if .Site.Params.contact.enable }}
-                <li>
-                    <a class="page-scroll" href="#contact">{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</a>
-                </li>
-                {{ end }}
-
-                {{ range .Site.Menus.postpend }}
-                <li>
-                    <a href="{{ .URL }}">{{ .Name | markdownify }}</a>
-                </li>
-                {{ end }}
             </ul>
         </div>
         {{ "<!-- /.navbar-collapse -->" | safeHTML }}

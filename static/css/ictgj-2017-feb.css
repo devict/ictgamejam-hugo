@@ -663,7 +663,7 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
-aside.clients img {
+aside.sponsors img {
     margin: 50px auto;
 }
 
@@ -880,4 +880,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #ef2176;
+}
+
+section ul {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }

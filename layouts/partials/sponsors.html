@@ -1,0 +1,20 @@
+{{ "<!-- Sponsors Aside -->" | safeHTML }}
+<aside class="sponsors">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2 class="section-heading">{{ $.Site.Data.current.general.sections.sponsors.title | markdownify }}</h2>
+              <h3 class="section-subheading text-muted">{{ $.Site.Data.current.general.sections.sponsors.subtitle | markdownify }}</h3>
+          </div>
+      </div>
+      <div class="row text-center">
+          {{ range $.Site.Data.current.sponsors }}
+          <div class="col-md-3 col-sm-6">
+              <a href="{{ .link }}">
+                  <img src="img/logos/{{ .logo }}" class="img-responsive img-centered" alt="{{ .name }}">
+              </a>
+          </div>
+          {{ end }}
+      </div>
+    </div>
+</aside>

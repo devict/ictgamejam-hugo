@@ -1,0 +1,31 @@
+{{ "<!-- Footer section -->" | safeHTML }}
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">{{ $.Site.Params.copyright | markdownify }}</span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+
+          {{ range .Site.Params.social }}
+            <li><a href="{{ .link }}"><i class="fa {{ .icon }}"></i></a></li>
+          {{ end }}
+
+          {{ with .Site.Data.current.parms.facebookevent }}
+            <li><a href="{{ . }}"><i class="fa fa-facebook"></i></a></li>
+          {{ end }}
+
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          {{ range $.Site.Data.current.general.sections.footer.links }}
+          <li>{{ . | markdownify }}</li>
+          {{ end }}
+          <li><a href="mailto:{{ $.Site.Params.email }}">{{ $.Site.Data.current.general.sections.footer.emailtext | markdownify }}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

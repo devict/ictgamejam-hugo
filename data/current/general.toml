@@ -1,0 +1,51 @@
+datestring = "February 3-5 2017"
+rsvplink = "https://www.eventbrite.com/e/wichita-esports-convention-tickets-28640291884#tickets"
+facebookevent = "https://www.facebook.com/events/263285980716220/"
+
+[sections.event]
+  title = "It's a PARTY"
+  subtitle = "Ok, **technically** it's a competition with cash prizes. It's not a workshop or a class about making games. But if you want to spend a weekend learning gamedev and getting fed, you'll be in good company."
+  rsvptext = "You should RSVP"
+
+  [[sections.event.list]]
+    icon = "fa-gamepad"
+    title = "Do I need to have made a game before?"
+    description = "Plenty of previous participants had little or no gamedev experience, but they had a blast.  We'll have lots of people willing to answer questions and help you learn at your own pace!"
+
+  [[sections.event.list]]
+    icon = "fa-code"
+    title = "Do I need to be a programmer?"
+    description = "No!  Games also need artists, writers, and designers.  There is no rule for whether your game must be 2D, 3D, complex, or even have graphics."
+
+  [[sections.event.list]]
+    icon = "fa-laptop"
+    title = "Do I need a computer?"
+    description = "While it's best to bring your own, there will even be computers available, just bring something for saving your work!  For those who bring their own, your desk will have 2 external monitors."
+
+  [[sections.event.list]]
+    icon = "fa-heart"
+    title = "I love it! I must know more!"
+    description = "If you insist!  The event is generously hosted at [NCAT](http://ncatkansas.org/).  We will have snacks, drinks and T-shirt waiting for you!  All meals will be provided on Saturday, breakfast and lunch provided on Sunday.  All that's left is to [RSVP](http://makeict.wildapricot.org/event-2267694) and follow [@ICTGameJam](https://twitter.com/ICTGameJam)!"
+
+[sections.schedule]
+  title = "Schedule"
+  subtitle = "Great! Now that you're going to the game jam, here's how the weekend will go..."
+  lastpoint = "Keep<br />making<br />games!"
+
+[sections.help]
+  title = "Help!"
+  subtitle = "The best way to help is to [RSVP](https://www.eventbrite.com/e/wichita-esports-convention-tickets-28640291884#tickets) and participate!  Otherwise we welcome volunteered time or talent in any amount before, during or after the event.<br /><br />Finally, if you absolutely insist, here are some sponsorship packages to consider!  For all these, please contact [ictgamejam@makeict.org](mailto:ictgamejam@makeict.org)</a>.<br><br>This and all devICT gamedev events are operated under MakeICT, a 501c3 organization.  All donations are used to run this and future gamedev events."
+
+[sections.judges]
+  title = "Our fearless judges"
+  subtitle = "From near AND distant lands!"
+
+[sections.sponsors]
+  title = "Our amazing sponsors"
+  subtitle = "Thanks for making this event possible!!"
+
+[sections.footer]
+  emailtext = "Email ICT Game Jam"
+  links = [
+    "[devICT](http://devict.org)"
+  ]
