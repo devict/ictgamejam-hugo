@@ -3,25 +3,27 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ with .Site.Params.help.title }}{{ . }}{{ end }}</h2>
-                <h3 class="section-subheading text-muted">{{ with .Site.Params.help.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+                <h2 class="section-heading">{{ $.Site.Data.current.general.sections.help.title | markdownify }}</h2>
+                <h3 class="section-subheading text-muted">{{ $.Site.Data.current.general.sections.help.subtitle | markdownify }}</h3>
             </div>
         </div>
 
-        {{ range .Site.Params.help.row }}
         <div class="row text-center">
-            {{ range .list }}
+          {{ range $.Site.Data.current.helpTiers }}
             <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading">{{ .title | markdownify }}</h4>
-                <p class="text-muted">{{ .description | markdownify }}</p>
+              <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
+              </span>
+              <h4 class="service-heading">{{ .title | markdownify }}</h4>
+              <ul class="text-left text-muted">
+              {{ range .description }}
+                <li>{{ . | markdownify }}</li>
+              {{ end }}
+              </ul>
             </div>
-            {{ end }}
+          {{ end }}
         </div>
-        {{ end }}
 
     </div>
 </section>

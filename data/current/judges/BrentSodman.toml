@@ -1,0 +1,14 @@
+img = "2017-02-brent.jpg"
+name = "Brent Sodman"
+
+bio = [
+  "Founder of [Dodge Roll Games](https://twitter.com/dodgerollgames).",
+  "Programmer of [Enter the Gungeon](http://dodgeroll.com/gungeon/), released April 2016.",
+  "Former technical artist at Electronic Arts.",
+  "The best type of jam is game jam."
+]
+
+social = [
+  ["fa-twitter", "https://twitter.com/DodgeRollBrent"],
+  ["fa-envelope", "mailto:brent@dodgeroll.com"]
+]

@@ -1,0 +1,55 @@
+datestring = "July 2017 - TBD"
+rsvplink = "https://www.meetup.com/devict/"
+facebookevent = "https://www.facebook.com/events/263285980716220/"
+
+[sections.event]
+  title = "It's a PARTY"
+  subtitle = "Ok, **technically** it's a competition with cash prizes. It's not a workshop or a class about making games. But if you want to spend a weekend learning gamedev and getting fed, you'll be in good company."
+  rsvptext = "You should MEETUP"
+  winnerTitle = "Winner of Judges' AND Community Choice<br /> February 2017 ICT Game Jam"
+  winnerName = "Super BLT by Kelly Johnson"
+  winnerImg = "2017-02-ictgamejam-super-blt.png"
+  gamesText = "Check out this and ALL the games at our [Itch.io jam page](https://itch.io/jam/2017-february-ict-game-jam)!"
+
+  [[sections.event.list]]
+    icon = "fa-gamepad"
+    title = "Do I need to have made a game before?"
+    description = "Plenty of previous participants had little or no gamedev experience, but they had a blast.  We'll have lots of people willing to answer questions and help you learn at your own pace!"
+
+  [[sections.event.list]]
+    icon = "fa-code"
+    title = "Do I need to be a programmer?"
+    description = "No!  Games also need artists, writers, and designers.  There is no rule for whether your game must be 2D, 3D, complex, or even have graphics."
+
+  [[sections.event.list]]
+    icon = "fa-laptop"
+    title = "Do I need a computer?"
+    description = "You will need to bring your own computer."
+
+  [[sections.event.list]]
+    icon = "fa-heart"
+    title = "I love it! I must know more!"
+    description = "If you insist!  The last event was generously hosted at [WSU Experiential Engineering building](http://www.wichita.edu/thisis/stories/story.asp?si=3527).  Participating gets you snacks, drinks and T-shirt!  Meals are provided throughout the weekend.  Follow [@ICTGameJam](https://twitter.com/ICTGameJam), and join us in [Slack](https://devict-slackin.herokuapp.com) to get involved with local game devs and upcoming events!"
+
+[sections.schedule]
+  title = "Schedule"
+  subtitle = "Great! Now that you're going to the game jam, here's how the weekend will go..."
+  lastpoint = "Keep<br />making<br />games!"
+
+[sections.help]
+  title = "Help!"
+  subtitle = "The best way to help is to [watch Meetup](https://www.meetup.com/devict/) and participate!  Otherwise we welcome volunteered time or talent in any amount before, during or after the event.<br /><br />Finally, if you absolutely insist, here are some sponsorship packages to consider!  For all these, please contact [ictgamejam@makeict.org](mailto:ictgamejam@makeict.org)</a>.<br><br>This and all devICT gamedev events are operated under MakeICT, a 501c3 organization.  All donations are used to run this and future gamedev events."
+
+[sections.judges]
+  title = "Our fearless judges"
+  subtitle = "From near AND distant lands!"
+
+[sections.sponsors]
+  title = "Our amazing sponsors"
+  subtitle = "Thanks for making this event possible!!"
+
+[sections.footer]
+  emailtext = "Email ICT Game Jam"
+  links = [
+    "[devICT](http://devict.org)"
+  ]
