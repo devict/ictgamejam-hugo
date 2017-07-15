@@ -9,7 +9,7 @@
     </div>
     <div class="row flexbox">
       {{ range $.Site.Data.current.judges }}
-        <div class="col-sm-4 col">
+        <div class="col-sm-6 col">
           <div class="team-member">
             {{ $url := printf "img/team/%s" .img }}
             <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}">

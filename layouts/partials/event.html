@@ -14,12 +14,16 @@
 
         <div class="row">
             <div class="col-lg-12 text-center">
+            {{ if isset $.Site.Data.current.general.sections.event "winnerTitle" }}
                 <h2 class="section-heading">{{ $.Site.Data.current.general.sections.event.winnerTitle | markdownify }}</h2>
                 <h3 class="section-heading text-muted">
-                  {{ $.Site.Data.current.general.sections.event.winnerName | markdownify }}
-                  <br /><br />
-                  <img src="img/2017-02-ictgamejam-super-blt.png" class="img-responsive" alt="$.Site.Data.current.general.sections.event.winnerName">
-                  <br /><br />
+                {{ $.Site.Data.current.general.sections.event.winnerName | markdownify }}
+                <br /><br />
+                <img src="img/2017-02-ictgamejam-super-blt.png" class="img-responsive" alt="$.Site.Data.current.general.sections.event.winnerName">
+                </h3>
+                <br /><br />
+            {{ end }}
+                <h3>
                   {{ $.Site.Data.current.general.sections.event.gamesText | markdownify }}
                 </h3>
             </div>
@@ -28,7 +32,7 @@
 
         <div class="row text-center">
           {{ range $.Site.Data.current.general.sections.event.list }}
-          <div class="col-md-4">
+          <div class="col-md-3">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
