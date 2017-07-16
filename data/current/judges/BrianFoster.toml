@@ -1,0 +1,15 @@
+img = "brian-foster.jpg"
+name = "Brian Foster"
+
+bio = [
+  "Professor of Video Game Design at [Butler Community College](https://www.butlercc.edu/info/201155/interactive-and-3d-technology).",
+  "Co-founder of [Quickdraw Studios](http://quickdrawstud.io/) (we met at the inaugural ICT Game Jam!",
+  "Was killed many times in Wolfenstein 3D back in 1992 (freaking dogs...)"
+]
+
+social = [
+  ["fa-twitter", "https://twitter.com/brianfoster"],
+	["fa-home", "http://brianisbrilliant.com/"],
+	["fa-globe", "http://quickdrawstud.io/"],
+	["fa-linkedin", "https://www.linkedin.com/in/brianisbrilliant"]
+]

@@ -34,7 +34,7 @@ facebookevent = "https://www.facebook.com/developerict"
 [sections.schedule]
   title = "Schedule"
   subtitle = "Great! Now that you're going to the game jam, here's how the weekend will go..."
-  lastpoint = "Keep<br />making<br />games!"
+  lastpoint = "Keep<br>making<br>games!"
 
 [sections.help]
   title = "Help!"
