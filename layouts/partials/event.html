@@ -14,18 +14,24 @@
 
         <div class="row">
             <div class="col-lg-12 text-center">
-            {{ if isset $.Site.Data.current.general.sections.event "winnerTitle" }}
-                <h2 class="section-heading">{{ $.Site.Data.current.general.sections.event.winnerTitle | markdownify }}</h2>
-                <h3 class="section-heading text-muted">
-                {{ $.Site.Data.current.general.sections.event.winnerName | markdownify }}
-                <br /><br />
-                <img src="img/2017-02-ictgamejam-super-blt.png" class="img-responsive" alt="$.Site.Data.current.general.sections.event.winnerName">
+            {{ if isset $.Site.Data.current.general.sections.event "locationText" }}
+                <h3 class="section-heading">
+                    {{ $.Site.Data.current.general.sections.event.locationText | markdownify }}
                 </h3>
                 <br /><br />
             {{ end }}
-                <h3>
-                  {{ $.Site.Data.current.general.sections.event.gamesText | markdownify }}
+
+            {{ if isset $.Site.Data.current.general.sections.event "winnerTitle" }}
+                <h2 class="section-heading">{{ $.Site.Data.current.general.sections.event.winnerTitle | markdownify }}</h2>
+                <h3 class="section-heading text-muted">
+                    {{ $.Site.Data.current.general.sections.event.winnerName | markdownify }}
+                    <br /><br />
+                    <img src="img/2017-02-ictgamejam-super-blt.png" class="img-responsive" alt="$.Site.Data.current.general.sections.event.winnerName">
                 </h3>
+                <br /><br />
+            {{ end }}
+            <h3>{{ $.Site.Data.current.general.sections.event.gamesText | markdownify }}</h3>
+            <h3>{{ $.Site.Data.current.general.sections.event.swagText | markdownify }}</h3>
             </div>
         </div>
         <br /><br />
