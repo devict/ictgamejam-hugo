@@ -1,17 +1,17 @@
-datestring = "July 28-30 2017"
-rsvplink = "https://www.eventbrite.com/e/2017-ict-game-jam-july-28-30-tickets-34021927501"
+datestring = "... returning this Winter!"
+rsvplink = "https://www.meetup.com/devict/"
 facebookevent = "https://www.facebook.com/developerict"
 
 [sections.event]
   title = "It's a PARTY"
   subtitle = "Ok, **technically** it's a competition with prizes. It's not a workshop or a class about making games. But if you want to spend a weekend learning gamedev and getting fed, you'll be in good company."
-  locationText = "This time we're generously hosted by Butler Community College - Andover Main Campus<br>[715 East 13th Street, Andover, KS 67002](https://www.google.com/maps/place/Butler+Community+College+-+Andover+Main+Campus/@37.7072635,-97.128179,18.5z/data=!4m8!1m2!2m1!1sbutler+andover+main+campus!3m4!1s0x87baff1a50477ffd:0x77634f40d963f490!8m2!3d37.7072091!4d-97.1278184)"
-  rsvptext = "You should RSVP"
+  locationText = "Venue and prizes generously donated by Butler Community College - Andover Main Campus<br>[715 East 13th Street, Andover, KS 67002](https://www.google.com/maps/place/Butler+Community+College+-+Andover+Main+Campus/@37.7072635,-97.128179,18.5z/data=!4m8!1m2!2m1!1sbutler+andover+main+campus!3m4!1s0x87baff1a50477ffd:0x77634f40d963f490!8m2!3d37.7072091!4d-97.1278184)"
+  rsvptext = "You should Meetup!"
   #winnerTitle = "Winner of Judges' AND Community Choice<br /> February 2017 ICT Game Jam"
   #winnerName = "Super BLT by Kelly Johnson"
   #winnerImg = "2017-02-ictgamejam-super-blt.png"
-  gamesText = "Check out the games from the last jam on our [Itch.io jam page](https://itch.io/jam/2017-february-ict-game-jam)!"
-  swagText = "We even have [shirts, hoodies](https://teespring.com/ict-game-jam-summer-2017#pid=2&cid=581&sid=front), and [mugs](https://teespring.com/ict-game-jam-mug-summer-2017#pid=522&cid=101895&sid=back)!"
+  gamesText = "Check out the games from previous events on our [Itch.io page](https://ictgamejam.itch.io)!"
+  swagText = "We even have [shirts, hoodies](https://teespring.com/ict-game-jam-summer-2017), and [mugs](https://teespring.com/ict-game-jam-mug-summer-2017)!"
 
   [[sections.event.list]]
     icon = "fa-gamepad"
