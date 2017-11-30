@@ -1,17 +1,17 @@
 datestring = "February 2-4, 2018"
-rsvplink = "https://www.meetup.com/devict/"
-facebookevent = "https://www.facebook.com/developerict"
+rsvplink = "https://www.eventbrite.com/e/2018-ict-game-jam-feb-2-4-at-wichita-esports-convention-tickets-40867232994"
+facebookevent = "https://www.facebook.com/events/890912087737389"
 
 [sections.event]
   title = "It's a PARTY"
   subtitle = "Ok, **technically** it's a competition with prizes. It's not a workshop or a class about making games. But if you want to spend a weekend learning gamedev and getting fed, you'll be in good company."
-  locationText = "Venue and prizes generously donated by Butler Community College - Andover Main Campus<br>[715 East 13th Street, Andover, KS 67002](https://www.google.com/maps/place/Butler+Community+College+-+Andover+Main+Campus/@37.7072635,-97.128179,18.5z/data=!4m8!1m2!2m1!1sbutler+andover+main+campus!3m4!1s0x87baff1a50477ffd:0x77634f40d963f490!8m2!3d37.7072091!4d-97.1278184)"
-  rsvptext = "You should Meetup!"
+  #locationText = "Venue and prizes generously donated by Butler Community College - Andover Main Campus<br>[715 East 13th Street, Andover, KS 67002](https://www.google.com/maps/place/Butler+Community+College+-+Andover+Main+Campus/@37.7072635,-97.128179,18.5z/data=!4m8!1m2!2m1!1sbutler+andover+main+campus!3m4!1s0x87baff1a50477ffd:0x77634f40d963f490!8m2!3d37.7072091!4d-97.1278184)"
+  rsvptext = "You should RSVP!"
   #winnerTitle = "Winner of Judges' AND Community Choice<br /> February 2017 ICT Game Jam"
   #winnerName = "Super BLT by Kelly Johnson"
   #winnerImg = "2017-02-ictgamejam-super-blt.png"
   gamesText = "Check out the games from previous events on our [Itch.io page](https://ictgamejam.itch.io)!"
-  swagText = "We even have [shirts, hoodies](https://teespring.com/ict-game-jam-summer-2017), and [mugs](https://teespring.com/ict-game-jam-mug-summer-2017)!"
+  #swagText = "We even have [shirts, hoodies](https://teespring.com/ict-game-jam-summer-2017), and [mugs](https://teespring.com/ict-game-jam-mug-summer-2017)!"
 
   [[sections.event.list]]
     icon = "fa-gamepad"
@@ -40,7 +40,7 @@ facebookevent = "https://www.facebook.com/developerict"
 
 [sections.help]
   title = "Help!"
-  subtitle = "The best way to help is to [watch Meetup](https://www.meetup.com/devict/) and participate!  Otherwise we welcome volunteered time or talent in any amount before, during or after the event.<br /><br />Finally, if you absolutely insist, here are some sponsorship packages to consider!  For all these, please contact [ictgamejam@makeict.org](mailto:ictgamejam@makeict.org)</a>.<br><br>This and all devICT gamedev events are operated under MakeICT, a 501c3 organization.  All donations are used to run this and future gamedev events."
+  subtitle = "The best way to help is to [RSVP](https://www.eventbrite.com/e/2018-ict-game-jam-feb-2-4-at-wichita-esports-convention-tickets-40867232994) and participate!  Otherwise we welcome volunteered time or talent in any amount before, during or after the event.<br /><br />Finally, if you absolutely insist, here are some sponsorship packages to consider!  For all these, please contact [ictgamejam@makeict.org](mailto:ictgamejam@makeict.org)</a>.<br><br>This and all devICT gamedev events are operated under MakeICT, a 501c3 organization.  All donations are used to run this and future gamedev events."
 
 [sections.judges]
   title = "Our fearless judges"
