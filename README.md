@@ -1,5 +1,5 @@
-# 2016-ictgamejam-RSVP
-Getting the 2016 ICT Game Jam RSVP kickstarted while I build the new site.
+# ictgamejam.com
+The builds from `public/` should get pushed to devict/ictgamejam Github repo's `gh-pages` branch - this updates the website
 
 
 
