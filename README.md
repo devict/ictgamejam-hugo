@@ -1,3 +1,6 @@
+# DEPRECATED!
+This repo is no longer in use and should probably be deleted.
+
 # ictgamejam.com
 The builds from `public/` should get pushed to devict/ictgamejam Github repo's `gh-pages` branch - this updates the website
 
